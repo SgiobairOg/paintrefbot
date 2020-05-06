@@ -3,7 +3,9 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node app.js"
+    "start": "node app.js",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "description": "Scrape paint colors from paintref.com",
   "dependencies": {
@@ -15,6 +17,8 @@
     "jade": "~1.11.0",
     "morgan": "~1.8.1",
     "request": "^2.81.0",
-    "serve-favicon": "~2.4.2"
-  }
+    "serve-favicon": "~2.4.2",
+    "snyk": "^1.319.0"
+  },
+  "snyk": true
 }
