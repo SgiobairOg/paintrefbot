@@ -9,9 +9,9 @@
   "dependencies": {
     "body-parser": "~1.17.1",
     "cheerio": "^1.0.0-rc.2",
-    "cookie-parser": "~1.4.3",
+    "cookie-parser": "~1.4.7",
     "debug": "~2.6.3",
-    "express": "~4.15.2",
+    "express": "~4.21.1",
     "jade": "~1.11.0",
     "morgan": "~1.8.1",
     "request": "^2.81.0",
