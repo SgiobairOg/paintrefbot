@@ -8,7 +8,7 @@
   "description": "Scrape paint colors from paintref.com",
   "dependencies": {
     "body-parser": "~1.17.1",
-    "cheerio": "^1.0.0-rc.2",
+    "cheerio": "^1.0.0",
     "cookie-parser": "~1.4.3",
     "debug": "~2.6.3",
     "express": "~4.15.2",
